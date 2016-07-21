@@ -2,7 +2,7 @@ Problem statement:
 Write a serializer, to/from file, for converting run-time POD structures to csv files. Ideally should have some debugging, performance, and API design considerations.
 
 Problem constraints:
-A) Ability to read code and understand the overall algorithm and how it solves the problem. B) Ability to read code and immediately reason about what the code does on the hardware, and this solves the problem. C) struct.h is assumed to *not* be modifiable by user code.
+A) Ability to read code and understand the overall algorithm and how it solves the problem. B) Ability to read code and immediately reason about what the code does on the hardware, and how this solves the problem. C) struct.h is assumed to *not* be modifiable by user code.
 
 Objective:
 Compare and contrast the difference between an OOP-style implementation and an implementation custom-tailored to the specific problem (aka cowboy programming).
