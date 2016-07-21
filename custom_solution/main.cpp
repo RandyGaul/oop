@@ -107,11 +107,13 @@ int main( )
 	memset( &c, 0, sizeof( c ) );
 
 	fclose( fp );
-	fopen( "out.txt", "r" );
+	fp = fopen( "out.txt", "r" );
 
 	Deserialize( fp, a );
 	Deserialize( fp, b );
 	Deserialize( fp, c );
+	
+	fclose( fp );
 
 	return 0;
 }
